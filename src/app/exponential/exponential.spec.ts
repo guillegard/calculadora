@@ -17,5 +17,9 @@ describe('exponential', () =>{
     it('it should do the exponential', () => {
         expect(exponential(5,5)).toBe(3125);
     })
+
+    it('it should be 1 when the 2 numbers are 0', () => {
+        expect(exponential(0,0)).toBe(1);
+    })
     
 });
